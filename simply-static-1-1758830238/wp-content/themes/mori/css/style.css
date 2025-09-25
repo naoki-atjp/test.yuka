@@ -64,8 +64,8 @@
 html {
   font-size: 100%;
   font-family: "Kiwi Maru", serif;
-  background-color: #FFF8F0;
-  color: #5D5247;
+  background-color: #fff8f0;
+  color: #5d5247;
 }
 
 body {
@@ -75,7 +75,7 @@ body {
 a {
   display: inline-block;
   text-decoration: none;
-  color: #5D5247;
+  color: #5d5247;
   display: inline-block;
 }
 
@@ -121,7 +121,7 @@ img {
   width: 100%;
   height: 5px;
   content: "";
-  background: linear-gradient(to right, #DAE6D2, #FFF8F0);
+  background: linear-gradient(to right, #dae6d2, #fff8f0);
   position: absolute;
   left: 0;
   bottom: -10px;
@@ -132,9 +132,9 @@ img {
   position: relative;
   font-weight: bold;
   text-align: center;
-  background-color: #FAD3C5;
+  background-color: #fad3c5;
   border-radius: 30px;
-  border: 0.5px solid #5D5247;
+  border: 0.5px solid #5d5247;
   box-shadow: 0px 4px 8px 0px rgba(75, 75, 75, 0.25);
   transition: 0.3s ease;
   padding: 15px 50px;
@@ -157,7 +157,7 @@ img {
   left: 20%;
   transform: scaleX(0);
   transform-origin: center;
-  background-color: #5D5247;
+  background-color: #5d5247;
   transition: 0.3s ease;
 }
 .btn:hover::after {
@@ -252,7 +252,7 @@ header .toggle {
     width: 100%;
     height: 1px;
     display: block;
-    background-color: #5D5247;
+    background-color: #5d5247;
     position: absolute;
     left: 0;
     top: 100%;
@@ -269,7 +269,7 @@ header .mask {
     width: 100%;
     height: 100vh;
     display: block;
-    background-color: #FAD3C5;
+    background-color: #fad3c5;
     position: fixed;
     top: 0;
     right: 0;
@@ -344,7 +344,7 @@ header.open .mask {
   }
 }
 footer {
-  background-color: #DAE6D2;
+  background-color: #dae6d2;
   position: relative;
   padding-inline: 15px;
   padding-top: 30px;
@@ -420,7 +420,7 @@ footer .footer-top {
 }
 footer .footer-top h3 {
   display: inline-block;
-  border-bottom: 0.5px solid #5D5247;
+  border-bottom: 0.5px solid #5d5247;
   padding-bottom: 8px;
 }
 footer .footer-top img {
@@ -464,7 +464,7 @@ footer .footer-top .access .text .text-inner img {
 footer .footer-top .access iframe {
   width: 100%;
   height: auto;
-  background-color: #FAD3C5;
+  background-color: #fad3c5;
   box-shadow: 0px 4px 8px 0px rgba(75, 75, 75, 0.25);
   border-radius: 10px;
   padding: 4px;
@@ -514,7 +514,7 @@ footer .to-top {
 footer .to-top::before {
   width: 1px;
   height: 50px;
-  background-color: #5D5247;
+  background-color: #5d5247;
   content: "";
   position: absolute;
   right: -5px;
@@ -527,7 +527,7 @@ footer .to-top:hover::before {
 footer .to-top::after {
   width: 1px;
   height: 10px;
-  background-color: #5D5247;
+  background-color: #5d5247;
   transform: rotate(45deg);
   content: "";
   position: absolute;
@@ -575,10 +575,10 @@ footer .footer {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .mainvisual .text {
-  color: #F5F5F5;
+  color: #f5f5f5;
   text-align: right;
   text-shadow: 0px 0px 15px rgb(169, 169, 169);
   position: absolute;
@@ -634,7 +634,7 @@ footer .footer {
 }
 .mainvisual .reception_wrapper .reception_time tr th,
 .mainvisual .reception_wrapper .reception_time tr td {
-  border-bottom: 0.5px solid #5D5247;
+  border-bottom: 0.5px solid #5d5247;
   padding: 10px 15px;
 }
 .mainvisual .reception_wrapper .reception_time tr td {
@@ -656,8 +656,8 @@ footer .footer {
 }
 .news .post {
   max-width: 768px;
-  background-color: #FFF8F0;
-  border: 1px solid #5D5247;
+  background-color: #fff8f0;
+  border: 1px solid #5d5247;
   border-radius: 30px;
   transition: all 0.3s ease;
   margin-left: auto;
@@ -696,7 +696,7 @@ footer .footer {
 .news .post .item .next::before {
   width: 80%;
   height: 1px;
-  background-color: #5D5247;
+  background-color: #5d5247;
   content: "";
   position: absolute;
   bottom: -10px;
@@ -705,7 +705,7 @@ footer .footer {
 .news .post .item .next::after {
   width: 1px;
   height: 10px;
-  background-color: #5D5247;
+  background-color: #5d5247;
   transform: rotate(45deg);
   content: "";
   position: absolute;
@@ -743,8 +743,8 @@ footer .footer {
   width: 40%;
   height: 200px;
   -o-object-fit: cover;
-     object-fit: cover;
-  border: 2px solid #FAD3C5;
+  object-fit: cover;
+  border: 2px solid #fad3c5;
   border-radius: 30px;
 }
 @media (max-width: 1024px) {
@@ -768,8 +768,8 @@ footer .footer {
 
 .single {
   max-width: 768px;
-  background-color: #FFF8F0;
-  border: 1px solid #5D5247;
+  background-color: #fff8f0;
+  border: 1px solid #5d5247;
   border-radius: 30px;
   text-align: center;
   transition: all 0.3s ease;
@@ -794,7 +794,7 @@ footer .footer {
 }
 .single .blog-img {
   width: 80%;
-  border: 2px solid #FAD3C5;
+  border: 2px solid #fad3c5;
   border-radius: 30px;
 }
 @media (max-width: 768px) {
@@ -853,7 +853,7 @@ footer .footer {
   width: 65%;
   height: 600px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   clip-path: polygon(0 0, 100% 0%, 66% 100%, 0% 100%);
   z-index: -10;
   opacity: 0;
@@ -896,7 +896,7 @@ footer .footer {
 .about .service .content .items .item {
   max-width: 250px;
   text-align: center;
-  background-color: #FAD3C5;
+  background-color: #fad3c5;
   border-radius: 20px;
   box-shadow: 0px 4px 8px 0px rgba(75, 75, 75, 0.25);
   transition: 0.5s ease;
@@ -922,7 +922,7 @@ footer .footer {
 }
 .about .service .content .items .item a .text-1 {
   width: 95%;
-  border-top: 1px solid #5D5247;
+  border-top: 1px solid #5d5247;
   transition: 0.5s ease;
   padding-top: 8px;
   margin-top: 8px;
@@ -952,13 +952,13 @@ footer .footer {
   }
 }
 .about .medical_care_subjects .background .subjects_pc .item {
-  background-color: #FFF8F0;
+  background-color: #fff8f0;
   border-radius: 30px;
   box-shadow: 0px 4px 8px 0px rgba(75, 75, 75, 0.25);
   padding: 16px 24px;
 }
 .about .medical_care_subjects .background .subjects_pc .item dt {
-  border-bottom: 1px solid #5D5247;
+  border-bottom: 1px solid #5d5247;
   padding-bottom: 8px;
   margin-bottom: 8px;
 }
@@ -977,8 +977,8 @@ footer .footer {
   display: none;
 }
 .about .medical_care_subjects .background .accordion .item {
-  background-color: #FFF8F0;
-  border: 0.5px solid #5D5247;
+  background-color: #fff8f0;
+  border: 0.5px solid #5d5247;
   border-radius: 30px;
   box-shadow: 0px 4px 8px 0px rgba(75, 75, 75, 0.25);
   padding: 24px;
@@ -1001,7 +1001,7 @@ footer .footer {
 .about .medical_care_subjects .background .accordion .item .content {
   width: 100%;
   display: none;
-  border-top: 0.5px solid #5D5247;
+  border-top: 0.5px solid #5d5247;
   padding-top: 8px;
 }
 .about .medical_care_subjects .background .accordion .item .content p {
@@ -1083,11 +1083,11 @@ footer .footer {
   position: absolute;
   top: 0;
   left: 0;
-  border: 5px solid #FAD3C5;
+  border: 5px solid #fad3c5;
   box-shadow: 0px 4px 8px 0px rgba(75, 75, 75, 0.25);
   border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   opacity: 0;
   animation: fade 9s infinite;
   margin-inline: auto;
@@ -1169,7 +1169,7 @@ footer .footer {
   width: 50%;
   box-shadow: 0px 4px 8px 0px rgba(75, 75, 75, 0.25);
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 @media (max-width: 1024px) {
   .staff .doctors .doctor img {
@@ -1191,7 +1191,7 @@ footer .footer {
   margin-bottom: 8px;
 }
 .staff .doctors .doctor .profile .subjects {
-  border-bottom: 0.5px solid #5D5247;
+  border-bottom: 0.5px solid #5d5247;
   padding-bottom: 16px;
   margin-bottom: 24px;
 }
@@ -1270,7 +1270,7 @@ footer .footer {
 .staff .service-staff .staff-slider .profile img {
   height: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   box-shadow: 0px 4px 8px 0px rgba(75, 75, 75, 0.25);
   margin-bottom: 16px;
 }
@@ -1302,7 +1302,7 @@ footer .footer {
 .staff .service-staff .staff-slider .slick-prev::before,
 .staff .service-staff .staff-slider .slick-next::before {
   font-size: 2rem;
-  color: #FAD3C5;
+  color: #fad3c5;
 }
 
 .job_offer {
@@ -1326,7 +1326,7 @@ footer .footer {
 .job_offer .wrapper .accordion .item {
   width: 100%;
   text-align: left;
-  border-left: 2px solid #FAD3C5;
+  border-left: 2px solid #fad3c5;
   padding-left: 16px;
   margin-bottom: 48px;
 }
@@ -1335,7 +1335,7 @@ footer .footer {
   position: relative;
   font-size: 1.2rem;
   transition: 0.3s ease;
-  border-bottom: 2px solid #FAD3C5;
+  border-bottom: 2px solid #fad3c5;
   padding-block: 16px;
 }
 @media (max-width: 768px) {
@@ -1364,7 +1364,7 @@ footer .footer {
 .job_offer .wrapper .accordion .item .content {
   width: 100%;
   display: none;
-  border-bottom: 2px solid #FAD3C5;
+  border-bottom: 2px solid #fad3c5;
   padding: 16px 32px;
   margin-top: 16px;
 }
@@ -1457,7 +1457,7 @@ footer .footer {
 }
 .form .form-inner {
   background-color: #ffffff;
-  border: 0.5px solid #5D5247;
+  border: 0.5px solid #5d5247;
   border-radius: 30px;
   box-shadow: 0px 4px 8px 0px rgba(75, 75, 75, 0.25);
   padding: 32px 48px;
@@ -1475,13 +1475,13 @@ footer .footer {
 }
 .form .form-inner .group .inquiry_type {
   width: 300px;
-  color: #5D5247;
-  border: 0.5px solid #5D5247;
+  color: #5d5247;
+  border: 0.5px solid #5d5247;
   border-radius: 10px;
   cursor: pointer;
   -webkit-appearance: auto;
-     -moz-appearance: auto;
-          appearance: auto;
+  -moz-appearance: auto;
+  appearance: auto;
   padding: 10px;
 }
 @media (max-width: 1024px) {
@@ -1515,7 +1515,7 @@ footer .footer {
 .form .form-inner .group .input-area .form-email,
 .form .form-inner .group .input-area .form-tel {
   width: 95%;
-  color: #5D5247;
+  color: #5d5247;
   background-color: #f5f5f5;
   border-radius: 10px;
   padding: 10px;
@@ -1528,15 +1528,18 @@ footer .footer {
     width: 100%;
   }
 }
-.form .form-inner .group .input-area .form-input::-moz-placeholder, .form .form-inner .group .input-area .form-textarea::-moz-placeholder, .form .form-inner .group .input-area .form-email::-moz-placeholder, .form .form-inner .group .input-area .form-tel::-moz-placeholder {
-  color: #5D5247;
+.form .form-inner .group .input-area .form-input::-moz-placeholder,
+.form .form-inner .group .input-area .form-textarea::-moz-placeholder,
+.form .form-inner .group .input-area .form-email::-moz-placeholder,
+.form .form-inner .group .input-area .form-tel::-moz-placeholder {
+  color: #5d5247;
   opacity: 0.5;
 }
 .form .form-inner .group .input-area .form-input::placeholder,
 .form .form-inner .group .input-area .form-textarea::placeholder,
 .form .form-inner .group .input-area .form-email::placeholder,
 .form .form-inner .group .input-area .form-tel::placeholder {
-  color: #5D5247;
+  color: #5d5247;
   opacity: 0.5;
 }
 .form .form-inner .group .input-area .form-textarea {
@@ -1569,7 +1572,7 @@ footer .footer {
   cursor: pointer;
 }
 .form .form-inner .group .gender label span {
-  color: #5D5247;
+  color: #5d5247;
 }
 .form .form-inner .group .gender .form-input {
   width: auto;
@@ -1608,7 +1611,7 @@ footer .footer {
   max-height: 500px;
   max-width: 500px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   top: 6%;
   right: 3%;
 }
@@ -1646,7 +1649,7 @@ footer .footer {
   width: 0.6px;
   height: 20%;
   content: "";
-  background-color: #5D5247;
+  background-color: #5d5247;
   position: absolute;
   left: 15%;
   bottom: 4%;
@@ -1668,7 +1671,7 @@ footer .footer {
   width: 70%;
   height: 0.6px;
   content: "";
-  background-color: #5D5247;
+  background-color: #5d5247;
   position: absolute;
   left: 15%;
   bottom: 4%;
@@ -1748,7 +1751,7 @@ footer .footer {
 .training .service-top .text .text-3,
 .hotel .service-top .text .text-3 {
   display: inline;
-  border-bottom: 0.5px solid #5D5247;
+  border-bottom: 0.5px solid #5d5247;
 }
 .trimming .service-top .btn,
 .rescue .service-top .btn,
@@ -1808,7 +1811,7 @@ footer .footer {
   top: 300px;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);
-  background-color: #5D5247;
+  background-color: #5d5247;
   z-index: -10;
 }
 @media (max-width: 768px) {
@@ -1828,7 +1831,7 @@ footer .footer {
 @media (max-width: 768px) {
   .plan .content .item .text {
     width: 100%;
-    border: 0.5px solid #5D5247;
+    border: 0.5px solid #5d5247;
     border-radius: 30px;
     padding: 16px 24px;
   }
@@ -1845,8 +1848,8 @@ footer .footer {
 }
 .plan .content .item .text table tr th,
 .plan .content .item .text table tr td {
-  border-bottom: 0.5px solid #5D5247;
-  border-right: 0.5px solid #5D5247;
+  border-bottom: 0.5px solid #5d5247;
+  border-right: 0.5px solid #5d5247;
   padding: 8px;
 }
 .plan .content .item .text table tr th:last-child,
@@ -1864,7 +1867,7 @@ footer .footer {
 }
 .plan .content .item .img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 50%;
   height: 300px;
   opacity: 0;
@@ -1920,7 +1923,7 @@ footer .footer {
   top: 616px;
   left: 50%;
   transform: translateX(-50%) rotate(-45deg);
-  background-color: #5D5247;
+  background-color: #5d5247;
   z-index: -10;
 }
 @media (max-width: 768px) {
@@ -1953,7 +1956,7 @@ footer .footer {
   top: 300px;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);
-  background-color: #5D5247;
+  background-color: #5d5247;
   z-index: -10;
 }
 @media (max-width: 768px) {
@@ -2004,7 +2007,7 @@ footer .footer {
 .information .container .border {
   width: 100%;
   height: 50vh;
-  border: 0.5px solid #5D5247;
+  border: 0.5px solid #5d5247;
   border-radius: 30px;
   padding: 48px;
 }
@@ -2069,7 +2072,7 @@ footer .footer {
 .wanted .wanted-list li {
   width: 100%;
   height: auto;
-  background-color: #FAD3C5;
+  background-color: #fad3c5;
   box-shadow: 0px 4px 8px 0px rgba(75, 75, 75, 0.25);
   text-align: left;
   display: flex;
@@ -2090,7 +2093,7 @@ footer .footer {
   width: 50%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   box-shadow: 0px 4px 8px 0px rgba(75, 75, 75, 0.25);
   transform: translateX(-50px);
   transition: 1s ease;
@@ -2124,7 +2127,7 @@ footer .footer {
 }
 .wanted .wanted-list li .text p span {
   display: block;
-  border-bottom: 0.5px solid #5D5247;
+  border-bottom: 0.5px solid #5d5247;
   padding-bottom: 16px;
 }
 .wanted .wanted-list li .text dl {
@@ -2238,7 +2241,7 @@ footer .footer {
 }
 .support ul li {
   width: 280px;
-  border: 2px solid #DAE6D2;
+  border: 2px solid #dae6d2;
   border-radius: 30px;
   padding: 24px 16px;
 }
@@ -2253,7 +2256,7 @@ footer .footer {
 }
 .support ul li .title {
   width: 70%;
-  border-bottom: 1.5px solid #DAE6D2;
+  border-bottom: 1.5px solid #dae6d2;
   padding-bottom: 8px;
   margin-bottom: 16px;
   margin-inline: auto;
@@ -2274,7 +2277,7 @@ footer .footer {
   left: 0;
   bottom: -8px;
   transition: 0.3s ease;
-  background-color: #5D5247;
+  background-color: #5d5247;
 }
 .support .more::after {
   width: 10px;
@@ -2283,7 +2286,7 @@ footer .footer {
   position: absolute;
   bottom: -11.5px;
   right: 6px;
-  background-color: #5D5247;
+  background-color: #5d5247;
   transition: 0.3s ease;
   rotate: -45deg;
 }
@@ -2429,4 +2432,4 @@ footer .footer {
 .method .back img {
   width: 13px;
   margin-left: 5px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=style.css.map */
