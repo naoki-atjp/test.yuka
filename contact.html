@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,16 +11,10 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kiwi+Maru&display=swap"
       rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/ress@4.0.0/dist/ress.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
@@ -88,62 +83,36 @@
           <div class="group">
             <label for="">ふりがな <span>*</span></label>
             <div class="input-area name">
-              <input
-                type="text"
-                name="lastname_kana"
-                placeholder="せい"
-                required />
-              <input
-                type="text"
-                name="firstname_kana"
-                placeholder="めい"
-                required />
+              <input type="text" name="lastname_kana" placeholder="せい" required />
+              <input type="text" name="firstname_kana" placeholder="めい" required />
             </div>
           </div>
 
           <div class="group">
             <label for="">どうぶつのお名前 <span>*</span></label>
             <div class="input-area animal-name name">
-              <input
-                type="text"
-                name="lastname_kana"
-                placeholder="お名前"
-                required />
+              <input type="text" name="lastname_kana" placeholder="お名前" required />
             </div>
           </div>
 
           <div class="group">
             <label for="">どうぶつの種類 <span>*</span></label>
             <div class="input-area animal-type name">
-              <input
-                type="text"
-                name="lastname_kana"
-                placeholder="例：犬"
-                required />
+              <input type="text" name="lastname_kana" placeholder="例：犬" required />
             </div>
           </div>
 
           <div class="group">
             <label for="email">メールアドレス <span>*</span></label>
             <div class="input-area">
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="例：sample@mail.com"
-                required />
+              <input type="email" id="email" name="email" placeholder="例：sample@mail.com" required />
             </div>
           </div>
 
           <div class="group">
             <label for="phone">電話番号 <span>*</span></label>
             <div class="input-area">
-              <input
-                type="tel"
-                id="phone"
-                name="phone"
-                placeholder="例：090-1234-5678"
-                required />
+              <input type="tel" id="phone" name="phone" placeholder="例：090-1234-5678" required />
             </div>
           </div>
 
@@ -171,15 +140,13 @@
       <div class="wave">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <!-- 上の薄い波 -->
-          <path
-            fill="#DAE6D2"
-            fill-opacity=".7"
-            d="M0,160L80,138.7C160,117,320,75,480,85.3C640,96,800,160,960,202.7C1120,245,1280,267,1360,277.3L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+          <path fill="#DAE6D2" fill-opacity=".7"
+            d="M0,160L80,138.7C160,117,320,75,480,85.3C640,96,800,160,960,202.7C1120,245,1280,267,1360,277.3L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+          </path>
           <!-- 下の濃い波 -->
-          <path
-            fill="#DAE6D2"
-            fill-opacity="1"
-            d="M0,192L48,197.3C96,203,192,213,288,218.7C384,224,480,224,576,213.3C672,203,768,181,864,154.7C960,128,1056,96,1152,85.3C1248,75,1344,85,1392,90.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+          <path fill="#DAE6D2" fill-opacity="1"
+            d="M0,192L48,197.3C96,203,192,213,288,218.7C384,224,480,224,576,213.3C672,203,768,181,864,154.7C960,128,1056,96,1152,85.3C1248,75,1344,85,1392,90.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+          </path>
         </svg>
       </div>
       <!-- ------------------------------------------------------- -->
@@ -268,11 +235,7 @@
 
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26461.98548979339!2d133.00174055785976!3d33.99900123690735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35502fddd73428e1%3A0xc90e36833387efea!2z44CSNzk5LTE1Mjcg5oSb5aqb55yM5LuK5rK75biC6ZW35rKi!5e0!3m2!1sja!2sjp!4v1754034782455!5m2!1sja!2sjp"
-              width="600"
-              height="300"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
+              width="600" height="300" style="border: 0" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
@@ -306,4 +269,5 @@
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
   </body>
+
 </html>
